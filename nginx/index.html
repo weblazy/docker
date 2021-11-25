@@ -1,0 +1,418 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN" id="bgimg">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<title>网页引导页-苍穹云</title>
+<meta name="description" content="网页引导页-苍穹云-www.cqioi.com">
+<meta name="keywords" content="网页引导页-苍穹云-www.cqioi.com">
+<link rel="icon" href="" mce_href="/dir/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/buttons.css">
+<link rel="stylesheet" type="text/css" href="https://www.bootcss.com/p/buttons/css/showcase.css">
+<link type="text/css" rel="stylesheet" href="style.css" />
+<meta name="referrer" content="no-referrer" />
+<style type="text/css">
+	/* basic styles for black background and crosshair cursor */
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block
+}
+a.button.button-rounded.button-plain.button-small-caps.button-border{
+background-color: #1212123b;
+}
+a.button.button-rounded.button-plain.button-small-caps.button-border:hover {
+    background-color: #fff;
+}
+blockquote,q {
+	quotes: none
+}
+.button{ margin: 4px;}
+.button-border, .button-border-thin, .button-border-thick{
+    border-width: 1px;
+    border-style: dotted;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none
+}
+.l-center {
+    margin-top: 150px;}
+input,textarea {
+	margin: 0;
+	padding: 0
+}
+
+ol,ul {
+	list-style: none
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+
+caption,th {
+	text-align: left
+}
+
+a:focus {
+	outline: 0
+}
+
+html {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	font-family: Microsoft YaHei,sans-serif;
+	z-index: 1;
+	line-height: 1.5;
+	background-color: #121925;
+	font-weight: 300;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	-webkit-transition: .5s linear;
+	-moz-transition: .5s linear;
+	-o-transition: .5s linear;
+	transition: .5s linear;
+}
+
+body{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	min-width: 300px;
+	z-index: 2;
+	cursor:url(src/default.cur), auto;
+}
+body:before {
+  content: ' ';
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+a {
+	color: #858585;
+	text-decoration:none;
+}
+
+a:hover {
+	color: #00b3ba;
+	cursor:url(src/hand.cur),auto
+}
+b {
+	background-color: rgba(0,179,186,0.4)
+}
+
+::selection {
+	background: #00b3ba
+}
+
+::-moz-selection {
+	background: #00b3ba
+}
+
+.top_hr_style01 {
+	width: 70%;
+	margin: 5px auto;
+	border: 0;
+	border-bottom: 1px solid #fff
+}
+
+.top_hr_style02 {
+	border: 0;
+	border-bottom: 1px dashed #858585
+}
+
+.slider {
+	width: 100%;
+	height: 150px;
+	-webkit-transition: .2s ease;
+	-moz-transition: .2s ease;
+	-o-transition: .2s ease;
+	transition: .2s ease;
+	background-color: #121925;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed
+}
+
+#top {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: auto;
+	z-index: 11
+}
+#top_main {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	margin: 0 auto;
+	padding: 40px 0 10px 0
+}
+
+#top_logo {
+	height: 30%;
+	min-height: 50px;
+	max-height: 244px;
+	display: block
+}
+
+#top_logo img {
+	-webkit-animation: A 15s linear 0s infinite;
+	animation: A 15s linear 0s infinite;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	height: 100%
+}
+
+@-webkit-keyframes A {
+	0% {
+		-webkit-transform: rotate(0deg)
+	}
+
+	100% {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@keyframes A {
+	0% {
+		transform: rotate(0deg)
+	}
+
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+#top_title {
+	text-align: center;
+	padding-top: 15px;
+	display: block;
+	height: 10%
+}
+
+#top_title img {
+	margin-right: auto;
+	margin-left: auto;
+	display: block
+}
+
+#top_title #top_title01 {
+	height: 83%;
+	max-height: 59px;
+	min-height: 30px
+}
+
+#top_title #top_title02 {
+	height: 9px
+}
+#top_title #top_title02:hover{
+	background:rgba(0,0,0,0.8);
+}
+#top_navlist {
+	display: block;
+	width: 30%;
+	height: 220px;
+	max-width: 220px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px
+}
+
+#top_navlist::after {
+	content: " ";
+	display: block;
+	width: 20%;
+	height: 150px
+}
+
+.top_nav {
+	border-radius: 5px;
+	display: block;
+	width: 100%;
+	max-height: 40px;
+	min-height: 10px;
+	margin-top: 15px;
+	text-decoration: none;
+	font-size: 90%;
+	vertical-align: middle central;
+	color: #fff;
+	letter-spacing: .5px;
+	text-align: center;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	line-height: 180%
+}
+
+.top_nav:hover {
+	border-radius: 5px;
+	background: #fff
+}
+
+#top_footer {
+	padding: 4px 10px 4px 10px;
+	background-color: #000;
+	background-color: rgba(0,0,0,0.9);
+	color: #858585;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 12;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear
+}
+#top_footer:hover{
+	background-color: #FFF;
+	background-color: rgba(255,255,255,0.8);
+	color: #000;
+}
+#top_copyright {
+	display: block;
+	-webkit-transition: .2s linear;
+	-moz-transition: .2s linear;
+	-o-transition: .2s linear;
+	transition: .2s linear;
+	font-size: 10px;
+	letter-spacing: 1.5px;
+	text-align: center
+}
+
+@media screen and (max-width:768px) {
+	#top_footer {
+		padding: 1px
+	}
+
+	#top_copyright {
+		font-size: 8px;
+		letter-spacing: 0;
+		text-align: center
+	}
+.l-center {
+    margin-top: 0;
+}}
+.tooltips{
+-webkit-animation: A 3s linear 0s infinite;
+animation: A 3s linear 0s infinite;
+width:12px;
+height:12px;
+top:10px;
+left:10px;
+background: url(src/snow.gif);
+font-size: 10px;
+position:absolute; /*这个是关键*/
+z-index:102;
+}
+.tooltips:hover{
+-webkit-animation: none;
+animation: none;
+z-index:103;
+background: url(src/snow.gif);/*没有这个在IE中不可用*/
+}
+.tooltips span{
+display: none;
+}
+.tooltips:hover span{ /*span 标签仅在 :hover 状态时显示*/
+display:block;
+position:relative;
+}
+</style>
+<div style="text-align:center;clear:both">
+</div>
+<div class="tooltips">
+<span>
+<iframe src="https://music.163.com/outchain/player?type=0&id=3052064923&auto=1&height=280" width=330 height="300" frameborder="no" marginwidth="0" marginheight="0"></iframe>
+</span>
+</div>
+</head>
+<body>
+<div id="top">
+<main id="top_main">
+<div id="top_logo"><img src="src/tx2.png" onmouseover="mouseOver()" onmouseout="mouseOut()" id="mainimg"></div>
+<div id="top_title"><img id="top_title01" alt="" src="src/toptitle01.png">
+<br class="top_hr_style01">
+</div><br><br>
+<div class="showcase-examples l-over l-center">
+  <a href="https://www.百度.com" title="爱收集测试" class="button button-rounded button-plain button-small-caps button-border" target="_blank">爱收集测试</a>
+  <a href="https://www.baidu.com" title="爱收集测试" class="button button-rounded button-plain button-small-caps button-border" target="_blank">爱收集测试</a>
+  <a href="http://填写要跳转的域名" title="未填写" class="button button-rounded button-plain button-small-caps button-border"target="_blank" >未填写</a>
+  <a href="http://填写要跳转的域名" title="未填写" class="button button-rounded button-plain button-small-caps button-border" target="_blank" >未填写</a>
+  <a href="http://填写要跳转的域名" title="未填写" class="button button-rounded button-plain button-small-caps button-border" target="_blank" >未填写</a>
+    <a href="http://填写要跳转的域名" title="未填写" class="button button-rounded button-plain button-small-caps button-border" target="_blank" >未填写</a>
+  </div>
+</main>
+</div>
+<footer id="top_footer">
+<span id="top_copyright">
+<hr class="top_hr_style02">
+(°ˊДˋ°)つ友情链接：<a href="https://www.cqioi.com">未填写</a>
+<hr class="top_hr_style02">
+<a href="http://填写要跳转的域名">某某网站</a> copyright © 2020 All Rights Reserved. <a href=""></a>
+蜀ICP备16031804号-1
+</span>
+</footer>
+</body>
+<script>
+	function mouseOver(){
+		document.getElementById("mainimg").src="src/tx.png";//鼠标悬浮时的旋转图标
+	}
+	function mouseOut()
+	{
+		document.getElementById('mainimg').src ="src/tx2.png"//默认的旋转图标
+	}
+</script>
+<script type="text/javascript">
+	function change(){
+		var bodyBgs = [];
+bodyBgs[1] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
+bodyBgs[2] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
+bodyBgs[3] = "http://img.netbian.com/file/2019/1016/0e323068cb10e3baacc930b3482d9754.jpg";
+bodyBgs[4] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
+bodyBgs[5] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
+bodyBgs[6] = "http://img.netbian.com/file/2019/0824/fe28123a86549be48bc00d639da77c60.jpg";
+bodyBgs[7] = "http://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
+bodyBgs[8] = "http://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
+bodyBgs[9] = "http://pic.netbian.com/uploads/allimg/190824/212516-15666531161ade.jpg";
+bodyBgs[10] = "http://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
+bodyBgs[11] = "http://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
+bodyBgs[12] = "http://pic.netbian.com/uploads/allimg/190614/221508-15605217086e6f.jpg";
+		var randomBgIndex = Math.round( Math.random() * 12 );
+		var img1= document.getElementById('bgimg');
+		img1.style.backgroundImage='url(' + bodyBgs[randomBgIndex] + ')';
+	        window.setTimeout(function(){change()},10000);
+	}
+	change();
+</script>
+<script type="text/javascript" src="src/snow.min.js"></script>        
+<script type="text/javascript">
+createSnow('src/', 60);
+</script>
+</html>
