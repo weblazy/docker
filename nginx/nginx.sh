@@ -1,9 +1,6 @@
 #!/bin/bash 
 set -e 
-mkdir -p nginx/www
-mkdir -p nginx/conf    
-mkdir -p nginx/conf.d
-mkdir -p nginx/logs
+mkdir -p nginx/www nginx/conf nginx/conf.d nginx/logs
 if [ ! -f nginx/conf/nginx.conf ]; then
     curl -o nginx/conf/nginx.conf https://raw.githubusercontent.com/weblazy/docker/master/nginx/nginx.conf
 fi
